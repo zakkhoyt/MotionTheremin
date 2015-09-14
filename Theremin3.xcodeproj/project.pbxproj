@@ -17,6 +17,10 @@
 		C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */; };
 		C62B89991BA688BA00B0A3D9 /* Theremin3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89981BA688BA00B0A3D9 /* Theremin3Tests.m */; };
 		C62B89A41BA688BA00B0A3D9 /* Theremin3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89A31BA688BA00B0A3D9 /* Theremin3UITests.m */; };
+		C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */; };
+		C62B89B61BA68BA800B0A3D9 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = C62B89B51BA68BA800B0A3D9 /* notes.txt */; };
+		C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */; };
+		FD05A92E09BEC16867D8C45D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EC2602EBE8F11F78B95980 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10EC2602EBE8F11F78B95980 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		234942F580FFD9882A2D9F85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		578BDF7615C96527BFE2ECF5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C62B89761BA688BA00B0A3D9 /* Theremin3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theremin3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62B897A1BA688BA00B0A3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +63,11 @@
 		C62B899F1BA688BA00B0A3D9 /* Theremin3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Theremin3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62B89A31BA688BA00B0A3D9 /* Theremin3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theremin3UITests.m; sourceTree = "<group>"; };
 		C62B89A51BA688BA00B0A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		C62B89B51BA68BA800B0A3D9 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioKitViewController.h; sourceTree = "<group>"; };
+		C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioKitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD05A92E09BEC16867D8C45D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091C118A118E868963108B7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10EC2602EBE8F11F78B95980 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C62B896D1BA688BA00B0A3D9 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +111,8 @@
 				C62B89971BA688BA00B0A3D9 /* Theremin3Tests */,
 				C62B89A21BA688BA00B0A3D9 /* Theremin3UITests */,
 				C62B89771BA688BA00B0A3D9 /* Products */,
+				DA0FCA119CC7F4090FB126DD /* Pods */,
+				091C118A118E868963108B7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,7 @@
 		C62B89781BA688BA00B0A3D9 /* Theremin3 */ = {
 			isa = PBXGroup;
 			children = (
+				C62B89B11BA688C400B0A3D9 /* Synthesizer */,
 				C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */,
 				C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */,
 				C62B897F1BA688BA00B0A3D9 /* GameScene.h */,
@@ -118,6 +142,11 @@
 				C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */,
 				C62B898F1BA688BA00B0A3D9 /* Info.plist */,
 				C62B89791BA688BA00B0A3D9 /* Supporting Files */,
+				C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */,
+				C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */,
+				C62B89B51BA68BA800B0A3D9 /* notes.txt */,
+				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
+				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
 			);
 			path = Theremin3;
 			sourceTree = "<group>";
@@ -148,6 +177,22 @@
 			path = Theremin3UITests;
 			sourceTree = "<group>";
 		};
+		C62B89B11BA688C400B0A3D9 /* Synthesizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Synthesizer;
+			sourceTree = "<group>";
+		};
+		DA0FCA119CC7F4090FB126DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				578BDF7615C96527BFE2ECF5 /* Pods.debug.xcconfig */,
+				234942F580FFD9882A2D9F85 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C62B89A81BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3" */;
 			buildPhases = (
+				A27842F66E6E443E6D2B54EB /* Check Pods Manifest.lock */,
 				C62B89721BA688BA00B0A3D9 /* Sources */,
 				C62B89731BA688BA00B0A3D9 /* Frameworks */,
 				C62B89741BA688BA00B0A3D9 /* Resources */,
+				987732A31E46C11A2EFBA15F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +300,7 @@
 			files = (
 				C62B89831BA688BA00B0A3D9 /* GameScene.sks in Resources */,
 				C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */,
+				C62B89B61BA68BA800B0A3D9 /* notes.txt in Resources */,
 				C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */,
 				C62B89891BA688BA00B0A3D9 /* Main.storyboard in Resources */,
 			);
@@ -274,6 +322,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		987732A31E46C11A2EFBA15F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27842F66E6E443E6D2B54EB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C62B89721BA688BA00B0A3D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -281,7 +362,9 @@
 			files = (
 				C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */,
 				C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */,
+				C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */,
 				C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */,
+				C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */,
 				C62B897B1BA688BA00B0A3D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +504,7 @@
 		};
 		C62B89A91BA688BA00B0A3D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578BDF7615C96527BFE2ECF5 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Theremin3/Info.plist;
@@ -432,6 +516,7 @@
 		};
 		C62B89AA1BA688BA00B0A3D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234942F580FFD9882A2D9F85 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Theremin3/Info.plist;
@@ -510,6 +595,7 @@
 				C62B89AA1BA688BA00B0A3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62B89AB1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3Tests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +604,7 @@
 				C62B89AD1BA688BA00B0A3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C62B89AE1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3UITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +613,7 @@
 				C62B89B01BA688BA00B0A3D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

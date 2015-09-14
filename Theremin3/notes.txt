@@ -1,0 +1,57 @@
+
+
+A tap can:
+    * Beep from touching
+    * Beep by turning on accelerometer
+    * Beep by turning on gyros
+    * Beep by turning on magnets
+    * Beep by turning on device motion
+    * Beep by turinng on camera
+    * Apply an effect (distortion, chorus, frets, keys, waveform, amplitude)
+
+
+Channel configuration:
+    * Min/Max frequency
+    * Waveform
+    * Effect
+    * Min/max amplitude
+
+Effects (as input changes to output)
+    * None
+    * distortion
+    * chorus
+    * frets
+    * autotune/keys
+    * Waveform (voice)
+    * Amplitude
+    * Harmonizer
+
+Synthesizer needs to
+    * Render up to 20 channels at the same time
+    * Sound professional
+    * Conform to KVO for rendering output
+    * Be playable to AirPlay
+    * Math function generator
+    * Midi? Synthesizer? (Need to find Apple's keyboard demo)
+    * Proecess effects
+    * Conform to Inter app audio for applying effects
+
+Synth links:
+    * http://audiokit.io/examples/
+
+
+
+IAP:
+    * Metronome
+    * Effects
+    * inputs
+    * Outputs
+
+
+SpriteKit
+StackViews
+Play pictures/live video by analizing RGB
+
+
+Maybies
+    * Work with a watch

@@ -7,16 +7,22 @@
 //
 
 #import "AudioKitViewController.h"
+#import "AKFoundation.h"
 
 @interface AudioKitViewController ()
-
+@property (nonatomic, strong) AKInstrument *instrument;
 @end
 
 @implementation AudioKitViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.instrument = [AKInstrument instrument];
+    [self.instrument setAudioOutput:[AKOscillator oscillator]];
+    
+    // STEP 4 : Add the instrument to the orchestra
+    [AKOrchestra addInstrument:self.instrument];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +30,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)toggleSound:(UIButton *)sender {
+    if (![sender.titleLabel.text isEqual: @"Stop"]) {
+        [self.instrument play];
+        sender.titleLabel.text = @"Stop";
+    } else {
+        [self.instrument stop];
+        sender.titleLabel.text = @"Play Sine Wave at 440Hz";
+    }
 }
-*/
 
 @end
