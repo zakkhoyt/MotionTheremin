@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62B897B1BA688BA00B0A3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897A1BA688BA00B0A3D9 /* main.m */; };
+		C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */; };
+		C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89801BA688BA00B0A3D9 /* GameScene.m */; };
+		C62B89831BA688BA00B0A3D9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C62B89821BA688BA00B0A3D9 /* GameScene.sks */; };
+		C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89851BA688BA00B0A3D9 /* GameViewController.m */; };
+		C62B89891BA688BA00B0A3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B89871BA688BA00B0A3D9 /* Main.storyboard */; };
+		C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */; };
+		C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */; };
+		C62B89991BA688BA00B0A3D9 /* Theremin3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89981BA688BA00B0A3D9 /* Theremin3Tests.m */; };
+		C62B89A41BA688BA00B0A3D9 /* Theremin3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89A31BA688BA00B0A3D9 /* Theremin3UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C62B89951BA688BA00B0A3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62B896E1BA688BA00B0A3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62B89751BA688BA00B0A3D9;
+			remoteInfo = Theremin3;
+		};
+		C62B89A01BA688BA00B0A3D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C62B896E1BA688BA00B0A3D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C62B89751BA688BA00B0A3D9;
+			remoteInfo = Theremin3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C62B89761BA688BA00B0A3D9 /* Theremin3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theremin3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B897A1BA688BA00B0A3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C62B897F1BA688BA00B0A3D9 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C62B89801BA688BA00B0A3D9 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		C62B89821BA688BA00B0A3D9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		C62B89841BA688BA00B0A3D9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		C62B89851BA688BA00B0A3D9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C62B89881BA688BA00B0A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C62B898D1BA688BA00B0A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C62B898F1BA688BA00B0A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B89941BA688BA00B0A3D9 /* Theremin3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Theremin3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B89981BA688BA00B0A3D9 /* Theremin3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theremin3Tests.m; sourceTree = "<group>"; };
+		C62B899A1BA688BA00B0A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62B899F1BA688BA00B0A3D9 /* Theremin3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Theremin3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62B89A31BA688BA00B0A3D9 /* Theremin3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Theremin3UITests.m; sourceTree = "<group>"; };
+		C62B89A51BA688BA00B0A3D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C62B89731BA688BA00B0A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B89911BA688BA00B0A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B899C1BA688BA00B0A3D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C62B896D1BA688BA00B0A3D9 = {
+			isa = PBXGroup;
+			children = (
+				C62B89781BA688BA00B0A3D9 /* Theremin3 */,
+				C62B89971BA688BA00B0A3D9 /* Theremin3Tests */,
+				C62B89A21BA688BA00B0A3D9 /* Theremin3UITests */,
+				C62B89771BA688BA00B0A3D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C62B89771BA688BA00B0A3D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89761BA688BA00B0A3D9 /* Theremin3.app */,
+				C62B89941BA688BA00B0A3D9 /* Theremin3Tests.xctest */,
+				C62B899F1BA688BA00B0A3D9 /* Theremin3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62B89781BA688BA00B0A3D9 /* Theremin3 */ = {
+			isa = PBXGroup;
+			children = (
+				C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */,
+				C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */,
+				C62B897F1BA688BA00B0A3D9 /* GameScene.h */,
+				C62B89801BA688BA00B0A3D9 /* GameScene.m */,
+				C62B89821BA688BA00B0A3D9 /* GameScene.sks */,
+				C62B89841BA688BA00B0A3D9 /* GameViewController.h */,
+				C62B89851BA688BA00B0A3D9 /* GameViewController.m */,
+				C62B89871BA688BA00B0A3D9 /* Main.storyboard */,
+				C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */,
+				C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */,
+				C62B898F1BA688BA00B0A3D9 /* Info.plist */,
+				C62B89791BA688BA00B0A3D9 /* Supporting Files */,
+			);
+			path = Theremin3;
+			sourceTree = "<group>";
+		};
+		C62B89791BA688BA00B0A3D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C62B897A1BA688BA00B0A3D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C62B89971BA688BA00B0A3D9 /* Theremin3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89981BA688BA00B0A3D9 /* Theremin3Tests.m */,
+				C62B899A1BA688BA00B0A3D9 /* Info.plist */,
+			);
+			path = Theremin3Tests;
+			sourceTree = "<group>";
+		};
+		C62B89A21BA688BA00B0A3D9 /* Theremin3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89A31BA688BA00B0A3D9 /* Theremin3UITests.m */,
+				C62B89A51BA688BA00B0A3D9 /* Info.plist */,
+			);
+			path = Theremin3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C62B89751BA688BA00B0A3D9 /* Theremin3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B89A81BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3" */;
+			buildPhases = (
+				C62B89721BA688BA00B0A3D9 /* Sources */,
+				C62B89731BA688BA00B0A3D9 /* Frameworks */,
+				C62B89741BA688BA00B0A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Theremin3;
+			productName = Theremin3;
+			productReference = C62B89761BA688BA00B0A3D9 /* Theremin3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C62B89931BA688BA00B0A3D9 /* Theremin3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B89AB1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3Tests" */;
+			buildPhases = (
+				C62B89901BA688BA00B0A3D9 /* Sources */,
+				C62B89911BA688BA00B0A3D9 /* Frameworks */,
+				C62B89921BA688BA00B0A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62B89961BA688BA00B0A3D9 /* PBXTargetDependency */,
+			);
+			name = Theremin3Tests;
+			productName = Theremin3Tests;
+			productReference = C62B89941BA688BA00B0A3D9 /* Theremin3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C62B899E1BA688BA00B0A3D9 /* Theremin3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62B89AE1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3UITests" */;
+			buildPhases = (
+				C62B899B1BA688BA00B0A3D9 /* Sources */,
+				C62B899C1BA688BA00B0A3D9 /* Frameworks */,
+				C62B899D1BA688BA00B0A3D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C62B89A11BA688BA00B0A3D9 /* PBXTargetDependency */,
+			);
+			name = Theremin3UITests;
+			productName = Theremin3UITests;
+			productReference = C62B899F1BA688BA00B0A3D9 /* Theremin3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C62B896E1BA688BA00B0A3D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zakk Hoyt";
+				TargetAttributes = {
+					C62B89751BA688BA00B0A3D9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C62B89931BA688BA00B0A3D9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C62B89751BA688BA00B0A3D9;
+					};
+					C62B899E1BA688BA00B0A3D9 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C62B89751BA688BA00B0A3D9;
+					};
+				};
+			};
+			buildConfigurationList = C62B89711BA688BA00B0A3D9 /* Build configuration list for PBXProject "Theremin3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C62B896D1BA688BA00B0A3D9;
+			productRefGroup = C62B89771BA688BA00B0A3D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C62B89751BA688BA00B0A3D9 /* Theremin3 */,
+				C62B89931BA688BA00B0A3D9 /* Theremin3Tests */,
+				C62B899E1BA688BA00B0A3D9 /* Theremin3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C62B89741BA688BA00B0A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B89831BA688BA00B0A3D9 /* GameScene.sks in Resources */,
+				C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */,
+				C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */,
+				C62B89891BA688BA00B0A3D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B89921BA688BA00B0A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B899D1BA688BA00B0A3D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C62B89721BA688BA00B0A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */,
+				C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */,
+				C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */,
+				C62B897B1BA688BA00B0A3D9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B89901BA688BA00B0A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B89991BA688BA00B0A3D9 /* Theremin3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B899B1BA688BA00B0A3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62B89A41BA688BA00B0A3D9 /* Theremin3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C62B89961BA688BA00B0A3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62B89751BA688BA00B0A3D9 /* Theremin3 */;
+			targetProxy = C62B89951BA688BA00B0A3D9 /* PBXContainerItemProxy */;
+		};
+		C62B89A11BA688BA00B0A3D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C62B89751BA688BA00B0A3D9 /* Theremin3 */;
+			targetProxy = C62B89A01BA688BA00B0A3D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C62B89871BA688BA00B0A3D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62B89881BA688BA00B0A3D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62B898D1BA688BA00B0A3D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62B89A61BA688BA00B0A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62B89A71BA688BA00B0A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62B89A91BA688BA00B0A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Theremin3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C62B89AA1BA688BA00B0A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Theremin3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C62B89AC1BA688BA00B0A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Theremin3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theremin3.app/Theremin3";
+			};
+			name = Debug;
+		};
+		C62B89AD1BA688BA00B0A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Theremin3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Theremin3.app/Theremin3";
+			};
+			name = Release;
+		};
+		C62B89AF1BA688BA00B0A3D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = Theremin3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Theremin3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C62B89B01BA688BA00B0A3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Theremin3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.threefoldphotos.Theremin3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Theremin3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C62B89711BA688BA00B0A3D9 /* Build configuration list for PBXProject "Theremin3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B89A61BA688BA00B0A3D9 /* Debug */,
+				C62B89A71BA688BA00B0A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62B89A81BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B89A91BA688BA00B0A3D9 /* Debug */,
+				C62B89AA1BA688BA00B0A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C62B89AB1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B89AC1BA688BA00B0A3D9 /* Debug */,
+				C62B89AD1BA688BA00B0A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C62B89AE1BA688BA00B0A3D9 /* Build configuration list for PBXNativeTarget "Theremin3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62B89AF1BA688BA00B0A3D9 /* Debug */,
+				C62B89B01BA688BA00B0A3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C62B896E1BA688BA00B0A3D9 /* Project object */;
+}
