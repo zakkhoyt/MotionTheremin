@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Zakk Hoyt. All rights reserved.
 //
 
-#import "GameViewController.h"
-#import "GameScene.h"
+#import "TouchViewController.h"
+#import "TouchScene.h"
 
 @implementation SKScene (Unarchive)
 
@@ -28,7 +28,7 @@
 
 @end
 
-@implementation GameViewController
+@implementation TouchViewController
 
 - (void)viewDidLoad
 {
@@ -42,7 +42,7 @@
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
-    GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
+    TouchScene *scene = [TouchScene unarchiveFromFile:@"TouchScene"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		C62B897B1BA688BA00B0A3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897A1BA688BA00B0A3D9 /* main.m */; };
 		C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */; };
-		C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89801BA688BA00B0A3D9 /* GameScene.m */; };
-		C62B89831BA688BA00B0A3D9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C62B89821BA688BA00B0A3D9 /* GameScene.sks */; };
-		C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89851BA688BA00B0A3D9 /* GameViewController.m */; };
+		C62B89811BA688BA00B0A3D9 /* TouchScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89801BA688BA00B0A3D9 /* TouchScene.m */; };
+		C62B89831BA688BA00B0A3D9 /* TouchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C62B89821BA688BA00B0A3D9 /* TouchScene.sks */; };
+		C62B89861BA688BA00B0A3D9 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89851BA688BA00B0A3D9 /* TouchViewController.m */; };
 		C62B89891BA688BA00B0A3D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B89871BA688BA00B0A3D9 /* Main.storyboard */; };
 		C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */; };
 		C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */; };
@@ -24,6 +24,9 @@
 		C649249B1BA791CA00A173C4 /* EffectsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924971BA791CA00A173C4 /* EffectsProcessor.m */; };
 		C649249C1BA791CA00A173C4 /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924991BA791CA00A173C4 /* ToneGenerator.m */; };
 		C64924A01BA7967A00A173C4 /* MotionMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C649249F1BA7967A00A173C4 /* MotionMonitor.m */; };
+		C64924AA1BA7990500A173C4 /* UIColor+VWW.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924A71BA7990500A173C4 /* UIColor+VWW.m */; };
+		C64924AB1BA7990500A173C4 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */; };
+		C64924AF1BA7991500A173C4 /* UIViewController+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924AE1BA7991500A173C4 /* UIViewController+AlertController.m */; };
 		FD05A92E09BEC16867D8C45D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EC2602EBE8F11F78B95980 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,11 +55,11 @@
 		C62B897A1BA688BA00B0A3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C62B897F1BA688BA00B0A3D9 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
-		C62B89801BA688BA00B0A3D9 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
-		C62B89821BA688BA00B0A3D9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C62B89841BA688BA00B0A3D9 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		C62B89851BA688BA00B0A3D9 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		C62B897F1BA688BA00B0A3D9 /* TouchScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchScene.h; sourceTree = "<group>"; };
+		C62B89801BA688BA00B0A3D9 /* TouchScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchScene.m; sourceTree = "<group>"; };
+		C62B89821BA688BA00B0A3D9 /* TouchScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TouchScene.sks; sourceTree = "<group>"; };
+		C62B89841BA688BA00B0A3D9 /* TouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		C62B89851BA688BA00B0A3D9 /* TouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 		C62B89881BA688BA00B0A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62B898D1BA688BA00B0A3D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -80,6 +83,12 @@
 		C64924991BA791CA00A173C4 /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
 		C649249E1BA7967A00A173C4 /* MotionMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionMonitor.h; sourceTree = "<group>"; };
 		C649249F1BA7967A00A173C4 /* MotionMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionMonitor.m; sourceTree = "<group>"; };
+		C64924A61BA7990500A173C4 /* UIColor+VWW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VWW.h"; sourceTree = "<group>"; };
+		C64924A71BA7990500A173C4 /* UIColor+VWW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VWW.m"; sourceTree = "<group>"; };
+		C64924A81BA7990500A173C4 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		C64924AD1BA7991500A173C4 /* UIViewController+AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertController.h"; sourceTree = "<group>"; };
+		C64924AE1BA7991500A173C4 /* UIViewController+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +132,6 @@
 				C62B89971BA688BA00B0A3D9 /* Theremin3Tests */,
 				C62B89A21BA688BA00B0A3D9 /* Theremin3UITests */,
 				C62B89771BA688BA00B0A3D9 /* Products */,
-				DA0FCA119CC7F4090FB126DD /* Pods */,
 				091C118A118E868963108B7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 		C62B89781BA688BA00B0A3D9 /* Theremin3 */ = {
 			isa = PBXGroup;
 			children = (
+				C64924AC1BA7990900A173C4 /* Categories */,
 				C649249D1BA791D000A173C4 /* Synth */,
 				C62B89BC1BA75D7D00B0A3D9 /* Documents */,
 				C62B89791BA688BA00B0A3D9 /* Supporting Files */,
@@ -165,6 +174,7 @@
 		C62B89971BA688BA00B0A3D9 /* Theremin3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				DA0FCA119CC7F4090FB126DD /* Pods */,
 				C62B89981BA688BA00B0A3D9 /* Theremin3Tests.m */,
 				C62B899A1BA688BA00B0A3D9 /* Info.plist */,
 			);
@@ -183,15 +193,9 @@
 		C62B89BB1BA75D6B00B0A3D9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
-				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
-				C62B897F1BA688BA00B0A3D9 /* GameScene.h */,
-				C62B89801BA688BA00B0A3D9 /* GameScene.m */,
-				C62B89821BA688BA00B0A3D9 /* GameScene.sks */,
-				C62B89841BA688BA00B0A3D9 /* GameViewController.h */,
-				C62B89851BA688BA00B0A3D9 /* GameViewController.m */,
-				C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */,
-				C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */,
+				C64924A51BA7988800A173C4 /* Keyboard */,
+				C64924A21BA7986700A173C4 /* Touch */,
+				C64924A41BA7987F00A173C4 /* Settings */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -244,6 +248,57 @@
 			name = Motion;
 			sourceTree = "<group>";
 		};
+		C64924A21BA7986700A173C4 /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				C64924A31BA7986E00A173C4 /* Sprite */,
+				C62B89841BA688BA00B0A3D9 /* TouchViewController.h */,
+				C62B89851BA688BA00B0A3D9 /* TouchViewController.m */,
+			);
+			name = Touch;
+			sourceTree = "<group>";
+		};
+		C64924A31BA7986E00A173C4 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				C62B897F1BA688BA00B0A3D9 /* TouchScene.h */,
+				C62B89801BA688BA00B0A3D9 /* TouchScene.m */,
+				C62B89821BA688BA00B0A3D9 /* TouchScene.sks */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		C64924A41BA7987F00A173C4 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */,
+				C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C64924A51BA7988800A173C4 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
+				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+		C64924AC1BA7990900A173C4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C64924AD1BA7991500A173C4 /* UIViewController+AlertController.h */,
+				C64924AE1BA7991500A173C4 /* UIViewController+AlertController.m */,
+				C64924A61BA7990500A173C4 /* UIColor+VWW.h */,
+				C64924A71BA7990500A173C4 /* UIColor+VWW.m */,
+				C64924A81BA7990500A173C4 /* NSTimer+Blocks.h */,
+				C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		DA0FCA119CC7F4090FB126DD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +306,7 @@
 				234942F580FFD9882A2D9F85 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,7 +414,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62B89831BA688BA00B0A3D9 /* GameScene.sks in Resources */,
+				C62B89831BA688BA00B0A3D9 /* TouchScene.sks in Resources */,
 				C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */,
 				C62B89B61BA68BA800B0A3D9 /* notes.txt in Resources */,
 				C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */,
@@ -420,12 +476,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */,
+				C62B89861BA688BA00B0A3D9 /* TouchViewController.m in Sources */,
 				C649249A1BA791CA00A173C4 /* Conductor.m in Sources */,
 				C649249C1BA791CA00A173C4 /* ToneGenerator.m in Sources */,
+				C64924AA1BA7990500A173C4 /* UIColor+VWW.m in Sources */,
 				C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */,
 				C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */,
-				C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */,
+				C64924AB1BA7990500A173C4 /* NSTimer+Blocks.m in Sources */,
+				C64924AF1BA7991500A173C4 /* UIViewController+AlertController.m in Sources */,
+				C62B89811BA688BA00B0A3D9 /* TouchScene.m in Sources */,
 				C649249B1BA791CA00A173C4 /* EffectsProcessor.m in Sources */,
 				C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */,
 				C64924A01BA7967A00A173C4 /* MotionMonitor.m in Sources */,
