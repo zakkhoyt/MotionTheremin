@@ -20,6 +20,10 @@
 		C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */; };
 		C62B89B61BA68BA800B0A3D9 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = C62B89B51BA68BA800B0A3D9 /* notes.txt */; };
 		C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */; };
+		C649249A1BA791CA00A173C4 /* Conductor.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924941BA791CA00A173C4 /* Conductor.m */; };
+		C649249B1BA791CA00A173C4 /* EffectsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924971BA791CA00A173C4 /* EffectsProcessor.m */; };
+		C649249C1BA791CA00A173C4 /* ToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924991BA791CA00A173C4 /* ToneGenerator.m */; };
+		C64924A01BA7967A00A173C4 /* MotionMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = C649249F1BA7967A00A173C4 /* MotionMonitor.m */; };
 		FD05A92E09BEC16867D8C45D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EC2602EBE8F11F78B95980 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +72,14 @@
 		C62B89B51BA68BA800B0A3D9 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 		C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioKitViewController.h; sourceTree = "<group>"; };
 		C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioKitViewController.m; sourceTree = "<group>"; };
+		C64924931BA791CA00A173C4 /* Conductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conductor.h; sourceTree = "<group>"; };
+		C64924941BA791CA00A173C4 /* Conductor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conductor.m; sourceTree = "<group>"; };
+		C64924961BA791CA00A173C4 /* EffectsProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectsProcessor.h; sourceTree = "<group>"; };
+		C64924971BA791CA00A173C4 /* EffectsProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectsProcessor.m; sourceTree = "<group>"; };
+		C64924981BA791CA00A173C4 /* ToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneGenerator.h; sourceTree = "<group>"; };
+		C64924991BA791CA00A173C4 /* ToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneGenerator.m; sourceTree = "<group>"; };
+		C649249E1BA7967A00A173C4 /* MotionMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionMonitor.h; sourceTree = "<group>"; };
+		C649249F1BA7967A00A173C4 /* MotionMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionMonitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,24 +141,12 @@
 		C62B89781BA688BA00B0A3D9 /* Theremin3 */ = {
 			isa = PBXGroup;
 			children = (
-				C62B89B11BA688C400B0A3D9 /* Synthesizer */,
-				C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */,
-				C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */,
-				C62B897F1BA688BA00B0A3D9 /* GameScene.h */,
-				C62B89801BA688BA00B0A3D9 /* GameScene.m */,
-				C62B89821BA688BA00B0A3D9 /* GameScene.sks */,
-				C62B89841BA688BA00B0A3D9 /* GameViewController.h */,
-				C62B89851BA688BA00B0A3D9 /* GameViewController.m */,
-				C62B89871BA688BA00B0A3D9 /* Main.storyboard */,
-				C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */,
-				C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */,
-				C62B898F1BA688BA00B0A3D9 /* Info.plist */,
+				C649249D1BA791D000A173C4 /* Synth */,
+				C62B89BC1BA75D7D00B0A3D9 /* Documents */,
 				C62B89791BA688BA00B0A3D9 /* Supporting Files */,
-				C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */,
-				C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */,
-				C62B89B51BA68BA800B0A3D9 /* notes.txt */,
-				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
-				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
+				C62B89BD1BA75D8A00B0A3D9 /* UserInterface */,
+				C62B89BB1BA75D6B00B0A3D9 /* ViewControllers */,
+				C64924A11BA7967E00A173C4 /* Motion */,
 			);
 			path = Theremin3;
 			sourceTree = "<group>";
@@ -154,6 +154,9 @@
 		C62B89791BA688BA00B0A3D9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C62B898F1BA688BA00B0A3D9 /* Info.plist */,
+				C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */,
+				C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */,
 				C62B897A1BA688BA00B0A3D9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -177,11 +180,68 @@
 			path = Theremin3UITests;
 			sourceTree = "<group>";
 		};
-		C62B89B11BA688C400B0A3D9 /* Synthesizer */ = {
+		C62B89BB1BA75D6B00B0A3D9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
+				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
+				C62B897F1BA688BA00B0A3D9 /* GameScene.h */,
+				C62B89801BA688BA00B0A3D9 /* GameScene.m */,
+				C62B89821BA688BA00B0A3D9 /* GameScene.sks */,
+				C62B89841BA688BA00B0A3D9 /* GameViewController.h */,
+				C62B89851BA688BA00B0A3D9 /* GameViewController.m */,
+				C62B89B21BA6894800B0A3D9 /* SettingsTableViewController.h */,
+				C62B89B31BA6894800B0A3D9 /* SettingsTableViewController.m */,
 			);
-			name = Synthesizer;
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C62B89BC1BA75D7D00B0A3D9 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89B51BA68BA800B0A3D9 /* notes.txt */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		C62B89BD1BA75D8A00B0A3D9 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				C62B89871BA688BA00B0A3D9 /* Main.storyboard */,
+				C62B898A1BA688BA00B0A3D9 /* Assets.xcassets */,
+				C62B898C1BA688BA00B0A3D9 /* LaunchScreen.storyboard */,
+			);
+			name = UserInterface;
+			sourceTree = "<group>";
+		};
+		C64924951BA791CA00A173C4 /* Instruments */ = {
+			isa = PBXGroup;
+			children = (
+				C64924961BA791CA00A173C4 /* EffectsProcessor.h */,
+				C64924971BA791CA00A173C4 /* EffectsProcessor.m */,
+				C64924981BA791CA00A173C4 /* ToneGenerator.h */,
+				C64924991BA791CA00A173C4 /* ToneGenerator.m */,
+			);
+			path = Instruments;
+			sourceTree = "<group>";
+		};
+		C649249D1BA791D000A173C4 /* Synth */ = {
+			isa = PBXGroup;
+			children = (
+				C64924931BA791CA00A173C4 /* Conductor.h */,
+				C64924941BA791CA00A173C4 /* Conductor.m */,
+				C64924951BA791CA00A173C4 /* Instruments */,
+			);
+			name = Synth;
+			sourceTree = "<group>";
+		};
+		C64924A11BA7967E00A173C4 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				C649249E1BA7967A00A173C4 /* MotionMonitor.h */,
+				C649249F1BA7967A00A173C4 /* MotionMonitor.m */,
+			);
+			name = Motion;
 			sourceTree = "<group>";
 		};
 		DA0FCA119CC7F4090FB126DD /* Pods */ = {
@@ -361,10 +421,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C62B89861BA688BA00B0A3D9 /* GameViewController.m in Sources */,
+				C649249A1BA791CA00A173C4 /* Conductor.m in Sources */,
+				C649249C1BA791CA00A173C4 /* ToneGenerator.m in Sources */,
 				C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */,
 				C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */,
 				C62B89811BA688BA00B0A3D9 /* GameScene.m in Sources */,
+				C649249B1BA791CA00A173C4 /* EffectsProcessor.m in Sources */,
 				C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */,
+				C64924A01BA7967A00A173C4 /* MotionMonitor.m in Sources */,
 				C62B897B1BA688BA00B0A3D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

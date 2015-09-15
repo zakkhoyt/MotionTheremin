@@ -38,6 +38,7 @@ Synthesizer needs to
 
 Synth links:
     * http://audiokit.io/examples/
+    * https://github.com/audiokit/Examples
 
 
 
