@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C622C9BB1BA7D16300D360D9 /* HarmonizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C622C9BA1BA7D16300D360D9 /* HarmonizerViewController.m */; };
+		C622C9C01BA7D17600D360D9 /* HarmonizerInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = C622C9BF1BA7D17600D360D9 /* HarmonizerInstrument.m */; };
+		C622C9C71BA7D25900D360D9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C622C9C41BA7D25900D360D9 /* TableViewController.m */; };
+		C622C9C81BA7D25900D360D9 /* OscillatorInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = C622C9C61BA7D25900D360D9 /* OscillatorInstrument.m */; };
 		C62B897B1BA688BA00B0A3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897A1BA688BA00B0A3D9 /* main.m */; };
 		C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B897D1BA688BA00B0A3D9 /* AppDelegate.m */; };
 		C62B89811BA688BA00B0A3D9 /* TouchScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C62B89801BA688BA00B0A3D9 /* TouchScene.m */; };
@@ -27,6 +31,14 @@
 		C64924AA1BA7990500A173C4 /* UIColor+VWW.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924A71BA7990500A173C4 /* UIColor+VWW.m */; };
 		C64924AB1BA7990500A173C4 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */; };
 		C64924AF1BA7991500A173C4 /* UIViewController+AlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924AE1BA7991500A173C4 /* UIViewController+AlertController.m */; };
+		C64924B31BA7CB3300A173C4 /* BinaturalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924B21BA7CB3300A173C4 /* BinaturalViewController.m */; };
+		C64924BB1BA7CB6600A173C4 /* StyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924B61BA7CB6600A173C4 /* StyleKit.m */; };
+		C64924BC1BA7CB6600A173C4 /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924B81BA7CB6600A173C4 /* HeadView.m */; };
+		C64924BD1BA7CB6600A173C4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924BA1BA7CB6600A173C4 /* Player.m */; };
+		C64924C21BA7CCB300A173C4 /* ContinuousViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924C11BA7CCB300A173C4 /* ContinuousViewController.m */; };
+		C64924C61BA7CCE100A173C4 /* ContinuousControlConductor.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924C51BA7CCE100A173C4 /* ContinuousControlConductor.m */; };
+		C64924C91BA7CCED00A173C4 /* TweakableInstrument.m in Sources */ = {isa = PBXBuildFile; fileRef = C64924C81BA7CCED00A173C4 /* TweakableInstrument.m */; };
+		C64924FC1BA7D08A00A173C4 /* AKSoundFiles.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C64924FB1BA7D08A00A173C4 /* AKSoundFiles.bundle */; };
 		FD05A92E09BEC16867D8C45D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EC2602EBE8F11F78B95980 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +63,14 @@
 		10EC2602EBE8F11F78B95980 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		234942F580FFD9882A2D9F85 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		578BDF7615C96527BFE2ECF5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C622C9B91BA7D16300D360D9 /* HarmonizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonizerViewController.h; sourceTree = "<group>"; };
+		C622C9BA1BA7D16300D360D9 /* HarmonizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonizerViewController.m; sourceTree = "<group>"; };
+		C622C9BE1BA7D17600D360D9 /* HarmonizerInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarmonizerInstrument.h; sourceTree = "<group>"; };
+		C622C9BF1BA7D17600D360D9 /* HarmonizerInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarmonizerInstrument.m; sourceTree = "<group>"; };
+		C622C9C31BA7D25900D360D9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C622C9C41BA7D25900D360D9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C622C9C51BA7D25900D360D9 /* OscillatorInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OscillatorInstrument.h; sourceTree = "<group>"; };
+		C622C9C61BA7D25900D360D9 /* OscillatorInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OscillatorInstrument.m; sourceTree = "<group>"; };
 		C62B89761BA688BA00B0A3D9 /* Theremin3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theremin3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62B897A1BA688BA00B0A3D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C62B897C1BA688BA00B0A3D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +109,21 @@
 		C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
 		C64924AD1BA7991500A173C4 /* UIViewController+AlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertController.h"; sourceTree = "<group>"; };
 		C64924AE1BA7991500A173C4 /* UIViewController+AlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertController.m"; sourceTree = "<group>"; };
+		C64924B11BA7CB3300A173C4 /* BinaturalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaturalViewController.h; sourceTree = "<group>"; };
+		C64924B21BA7CB3300A173C4 /* BinaturalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaturalViewController.m; sourceTree = "<group>"; };
+		C64924B51BA7CB6600A173C4 /* StyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKit.h; sourceTree = "<group>"; };
+		C64924B61BA7CB6600A173C4 /* StyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKit.m; sourceTree = "<group>"; };
+		C64924B71BA7CB6600A173C4 /* HeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
+		C64924B81BA7CB6600A173C4 /* HeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
+		C64924B91BA7CB6600A173C4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		C64924BA1BA7CB6600A173C4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		C64924C01BA7CCB300A173C4 /* ContinuousViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousViewController.h; sourceTree = "<group>"; };
+		C64924C11BA7CCB300A173C4 /* ContinuousViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinuousViewController.m; sourceTree = "<group>"; };
+		C64924C41BA7CCE100A173C4 /* ContinuousControlConductor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinuousControlConductor.h; sourceTree = "<group>"; };
+		C64924C51BA7CCE100A173C4 /* ContinuousControlConductor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinuousControlConductor.m; sourceTree = "<group>"; };
+		C64924C71BA7CCED00A173C4 /* TweakableInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweakableInstrument.h; sourceTree = "<group>"; };
+		C64924C81BA7CCED00A173C4 /* TweakableInstrument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweakableInstrument.m; sourceTree = "<group>"; };
+		C64924FB1BA7D08A00A173C4 /* AKSoundFiles.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKSoundFiles.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +160,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C622C9BC1BA7D16700D360D9 /* Harmonizer */ = {
+			isa = PBXGroup;
+			children = (
+				C622C9BD1BA7D16D00D360D9 /* Synth */,
+				C622C9B91BA7D16300D360D9 /* HarmonizerViewController.h */,
+				C622C9BA1BA7D16300D360D9 /* HarmonizerViewController.m */,
+			);
+			name = Harmonizer;
+			sourceTree = "<group>";
+		};
+		C622C9BD1BA7D16D00D360D9 /* Synth */ = {
+			isa = PBXGroup;
+			children = (
+				C622C9BE1BA7D17600D360D9 /* HarmonizerInstrument.h */,
+				C622C9BF1BA7D17600D360D9 /* HarmonizerInstrument.m */,
+			);
+			name = Synth;
+			sourceTree = "<group>";
+		};
+		C622C9C21BA7D24700D360D9 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				C622C9C31BA7D25900D360D9 /* TableViewController.h */,
+				C622C9C41BA7D25900D360D9 /* TableViewController.m */,
+				C622C9C51BA7D25900D360D9 /* OscillatorInstrument.h */,
+				C622C9C61BA7D25900D360D9 /* OscillatorInstrument.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
 		C62B896D1BA688BA00B0A3D9 = {
 			isa = PBXGroup;
 			children = (
@@ -150,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				C64924AC1BA7990900A173C4 /* Categories */,
-				C649249D1BA791D000A173C4 /* Synth */,
 				C62B89BC1BA75D7D00B0A3D9 /* Documents */,
 				C62B89791BA688BA00B0A3D9 /* Supporting Files */,
 				C62B89BD1BA75D8A00B0A3D9 /* UserInterface */,
@@ -193,9 +257,13 @@
 		C62B89BB1BA75D6B00B0A3D9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C622C9C21BA7D24700D360D9 /* Table */,
 				C64924A51BA7988800A173C4 /* Keyboard */,
 				C64924A21BA7986700A173C4 /* Touch */,
 				C64924A41BA7987F00A173C4 /* Settings */,
+				C64924B41BA7CB5500A173C4 /* Binatural */,
+				C64924C31BA7CCB600A173C4 /* Continuous */,
+				C622C9BC1BA7D16700D360D9 /* Harmonizer */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -280,6 +348,7 @@
 		C64924A51BA7988800A173C4 /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C649249D1BA791D000A173C4 /* Synth */,
 				C62B89B71BA730B100B0A3D9 /* AudioKitViewController.h */,
 				C62B89B81BA730B100B0A3D9 /* AudioKitViewController.m */,
 			);
@@ -297,6 +366,43 @@
 				C64924A91BA7990500A173C4 /* NSTimer+Blocks.m */,
 			);
 			name = Categories;
+			sourceTree = "<group>";
+		};
+		C64924B41BA7CB5500A173C4 /* Binatural */ = {
+			isa = PBXGroup;
+			children = (
+				C64924BE1BA7CB6B00A173C4 /* Synth */,
+				C64924B11BA7CB3300A173C4 /* BinaturalViewController.h */,
+				C64924B21BA7CB3300A173C4 /* BinaturalViewController.m */,
+			);
+			name = Binatural;
+			sourceTree = "<group>";
+		};
+		C64924BE1BA7CB6B00A173C4 /* Synth */ = {
+			isa = PBXGroup;
+			children = (
+				C64924FB1BA7D08A00A173C4 /* AKSoundFiles.bundle */,
+				C64924B51BA7CB6600A173C4 /* StyleKit.h */,
+				C64924B61BA7CB6600A173C4 /* StyleKit.m */,
+				C64924B71BA7CB6600A173C4 /* HeadView.h */,
+				C64924B81BA7CB6600A173C4 /* HeadView.m */,
+				C64924B91BA7CB6600A173C4 /* Player.h */,
+				C64924BA1BA7CB6600A173C4 /* Player.m */,
+			);
+			name = Synth;
+			sourceTree = "<group>";
+		};
+		C64924C31BA7CCB600A173C4 /* Continuous */ = {
+			isa = PBXGroup;
+			children = (
+				C64924C71BA7CCED00A173C4 /* TweakableInstrument.h */,
+				C64924C81BA7CCED00A173C4 /* TweakableInstrument.m */,
+				C64924C41BA7CCE100A173C4 /* ContinuousControlConductor.h */,
+				C64924C51BA7CCE100A173C4 /* ContinuousControlConductor.m */,
+				C64924C01BA7CCB300A173C4 /* ContinuousViewController.h */,
+				C64924C11BA7CCB300A173C4 /* ContinuousViewController.m */,
+			);
+			name = Continuous;
 			sourceTree = "<group>";
 		};
 		DA0FCA119CC7F4090FB126DD /* Pods */ = {
@@ -417,6 +523,7 @@
 				C62B89831BA688BA00B0A3D9 /* TouchScene.sks in Resources */,
 				C62B898E1BA688BA00B0A3D9 /* LaunchScreen.storyboard in Resources */,
 				C62B89B61BA68BA800B0A3D9 /* notes.txt in Resources */,
+				C64924FC1BA7D08A00A173C4 /* AKSoundFiles.bundle in Resources */,
 				C62B898B1BA688BA00B0A3D9 /* Assets.xcassets in Resources */,
 				C62B89891BA688BA00B0A3D9 /* Main.storyboard in Resources */,
 			);
@@ -477,18 +584,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				C62B89861BA688BA00B0A3D9 /* TouchViewController.m in Sources */,
+				C64924C61BA7CCE100A173C4 /* ContinuousControlConductor.m in Sources */,
+				C64924BB1BA7CB6600A173C4 /* StyleKit.m in Sources */,
+				C64924BC1BA7CB6600A173C4 /* HeadView.m in Sources */,
 				C649249A1BA791CA00A173C4 /* Conductor.m in Sources */,
 				C649249C1BA791CA00A173C4 /* ToneGenerator.m in Sources */,
 				C64924AA1BA7990500A173C4 /* UIColor+VWW.m in Sources */,
 				C62B897E1BA688BA00B0A3D9 /* AppDelegate.m in Sources */,
+				C622C9BB1BA7D16300D360D9 /* HarmonizerViewController.m in Sources */,
 				C62B89B41BA6894800B0A3D9 /* SettingsTableViewController.m in Sources */,
 				C64924AB1BA7990500A173C4 /* NSTimer+Blocks.m in Sources */,
 				C64924AF1BA7991500A173C4 /* UIViewController+AlertController.m in Sources */,
 				C62B89811BA688BA00B0A3D9 /* TouchScene.m in Sources */,
 				C649249B1BA791CA00A173C4 /* EffectsProcessor.m in Sources */,
+				C64924BD1BA7CB6600A173C4 /* Player.m in Sources */,
 				C62B89B91BA730B100B0A3D9 /* AudioKitViewController.m in Sources */,
 				C64924A01BA7967A00A173C4 /* MotionMonitor.m in Sources */,
 				C62B897B1BA688BA00B0A3D9 /* main.m in Sources */,
+				C64924C91BA7CCED00A173C4 /* TweakableInstrument.m in Sources */,
+				C64924B31BA7CB3300A173C4 /* BinaturalViewController.m in Sources */,
+				C622C9C71BA7D25900D360D9 /* TableViewController.m in Sources */,
+				C64924C21BA7CCB300A173C4 /* ContinuousViewController.m in Sources */,
+				C622C9C81BA7D25900D360D9 /* OscillatorInstrument.m in Sources */,
+				C622C9C01BA7D17600D360D9 /* HarmonizerInstrument.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
